@@ -2,8 +2,11 @@ package com.example.gridlayout;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.GridLayout;
 
 public class MainActivity extends AppCompatActivity {
+
+    private GridLayout grid1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
